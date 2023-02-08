@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 import Link from "./Link";
-// import Logo from "@/assets/Logo.png"
+import Logo from "@/assets/Logo.png"
 import { SelectedPage } from "@/shared/types";
 import useMediaQuery from "@/hooks/useMediaQuery";
 import AnchorButton from "@/components/ui/Button/AnchorButton";
@@ -24,7 +24,7 @@ const Navbar = ({ selectedPage, setSelectedPage, isTopOfScreen }: Props) => {
       <div className={`${navbarBackground} ${flexBetween} fixed top-0 z-30 w-full py-6`}>
         <div className={`${flexBetween} mx-auto w-5/6`}>
           <div className={`${flexBetween} w-full gap-16`}>
-            <img alt="logo" />
+            <img src={Logo} alt="logo" />
             {isAboveMediumScreens ? (
               <div className={`${flexBetween} w-full`}>
                 <div className={`${flexBetween} gap-8 text-sm`}>
