@@ -4,3 +4,16 @@ export enum SelectedPage {
   OurClasses = 'ourclasses',
   ContactUs='contactus'
 }
+
+export enum VariantTypes {
+  Primary = "primary",
+  Secondary = "secondary",
+  Default = "default"
+}
+
+export enum Sizes {
+  XS = 'xs',
+  SM = 'sm',
+  MD = 'md',
+  LG = 'lg',
+}
