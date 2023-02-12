@@ -17,7 +17,7 @@ const Navbar = ({ selectedPage, setSelectedPage, isTopOfScreen }: Props) => {
   const flexBetween = "flex items-center justify-between";
   const isAboveMediumScreens = useMediaQuery("(min-width: 1060px)");
 
-  const navbarBackground = isTopOfScreen ? "": "bg-primary-100 drop-shadow"
+  const navbarBackground = isTopOfScreen ? "": "bg-primary-100 drop-shadow transition"
 
   return (
     <nav>
